@@ -7,23 +7,56 @@
     font-family: "poppins", "sans-serif";
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #232323;
+}
+
 .container {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #3f2a9b;
+    background: linear-gradient(50deg, rgba(63, 42, 155, 1) 0%, rgba(87, 195, 199, 1) 50%, rgba(104, 237, 83, 1) 100%);
 }
 
 .options {
     padding: 10px;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    width: 550px;
+    border-radius: 20px;
 }
 
 #password-input {
-    border: 1px solid #101010;
-    border-radius: 20px;
+    border: none;
+    border-radius: 8px;
     width: 200px;
     padding: 10px;
     font-size: 18px;
+    margin: 20px 0;
+}
+
+#generate-password {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #0085cd;
+}
+
+#password {
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 500;
 }
