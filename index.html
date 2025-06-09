@@ -11,14 +11,22 @@
         <h2>Password Generator</h2>
         <input type="number" min="8" max="20" id="password-input">
         <div class="options">
-            <input type="checkbox" name="Lowercase" id="include-lowercase" checked />
-            <label for="Lowercase">Lowercase</label>
-            <input type="checkbox" class="checks" id="include-uppercase">
-            <label for="Uppercase">Uppercase</label>
-            <input type="checkbox" class="checks" id="include-numbers">
-            <label for="Lowercase">Numbers</label>
-            <input type="checkbox" class="checks" id="include-symbols">
-            <label for="Lowercase">Symbols</label>
+            <div class="lower-div">
+                <input type="checkbox" name="Lowercase" id="include-lowercase" checked />
+                <label for="Lowercase">Lowercase</label>
+            </div>
+            <div class="upper-div">
+                <input type="checkbox" class="checks" id="include-uppercase">
+                <label for="Uppercase">Uppercase</label>
+            </div>
+            <div class="num-div">
+                <input type="checkbox" class="checks" id="include-numbers">
+                <label for="Lowercase">Numbers</label>
+            </div>
+            <div class="symbol-div">
+                <input type="checkbox" class="checks" id="include-symbols">
+                <label for="Lowercase">Symbols</label>
+            </div>
         </div>
         <button id="generate-password">Generate Password</button>
         <p id="password"></p>
